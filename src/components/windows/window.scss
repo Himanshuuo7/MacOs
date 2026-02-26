@@ -1,0 +1,59 @@
+.window{
+    border-radius: 0.75rem;
+    height: 100%;
+    overflow: hidden;
+    background-color: #0e0e0e;
+    color: #a09999;
+    font-family: gilroy;
+
+    .nav {
+        padding-inline: 0.75rem;
+        padding-block: 0.5rem;
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        border-bottom: 1px solid rgba(245, 245, 245, 0.673);
+
+        .dots{
+            display: flex;
+            gap: 0.25rem;
+
+            .dot{
+            height: 15px;
+            width: 15px;
+            background-color: #fff;
+            border-radius: 50%;
+            
+        }
+            .red{
+                background-color: rgb(224, 37, 37);
+                cursor: pointer;
+            }
+
+            .yellow{
+                background-color: rgb(240, 240, 89);
+            }
+
+            .green{
+                background-color: rgb(37, 209, 37);
+            }
+
+
+
+
+        }   
+    }
+
+    .main-content{
+        height: 100%;
+    }
+
+    *::-webkit-scrollbar{
+        width: 8px;
+    }
+
+    *::-webkit-scrollbar-thumb{
+        background-color: #a09999;
+        border-radius: 4px;
+    }
+}
